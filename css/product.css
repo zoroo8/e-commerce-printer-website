@@ -1,0 +1,85 @@
+/* External css for offer and product_container */
+main {
+    padding: 40px;
+}
+
+
+/* css for offer section */
+main .offer {
+    margin-bottom: 20px;
+    height: 250px;
+    width: 100%;
+    background-color: white;
+}
+
+.offer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* section for product conatiner */
+main .product_container {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.printer_view {
+    border-radius: 20px;
+    position: relative;
+    padding: 0px 20px;
+    margin: 20px 20px;
+    height: 400px;
+    width: 280px;
+    background-color: rgba(110, 162, 195, 0.15);
+    opacity: 80%;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.printer_view:hover {
+    border-radius: 15px;
+    background-color: transparent;
+    scale: 1.03;
+    opacity: 100%;
+    box-shadow: 1px 1px 10px rgb(81, 80, 80);
+}
+
+.product_container .printer_view a {
+    text-decoration: none;
+    color: black;
+}
+
+.product_container .printer_view .printer_image {
+    padding-top: 30px;
+}
+
+.product_container .printer_view .printer_image img {
+
+    width: 100%;
+}
+
+.fav button img {
+    width: 30px;
+}
+
+.product_container .printer_view .printer_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_container .printer_view .printer_desc p {
+    font-size: 22px;
+    margin-top: 5px;
+    padding-bottom: 38px;
+}
+
+.product_container .printer_view .fav {
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+}

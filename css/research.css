@@ -1,0 +1,48 @@
+/* css for research page */
+main{
+    padding-top: 100px;
+
+    width: 100%;
+    
+}
+.research-img{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.research-img img{
+    height: 250px;
+    width: 90%;
+}
+.researchBox{
+    margin-bottom: 20px;
+     background-color: rgba(110, 162, 195, 0.15);
+     text-align: center;
+}
+.research-pic {
+    display: flex;
+    justify-content: space-evenly;
+}
+.research-pic img{
+    width: 80%;
+    border: 1px solid black;
+    transition: 1s ease;
+}
+.research-pic img:hover{
+    scale: 1.1;
+    z-index: 2;
+   
+}
+.researchBox h1{
+    margin: 40px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.researchBox p{
+    margin-top: 60px;
+    font-size:30px;
+}

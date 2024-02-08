@@ -1,0 +1,220 @@
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+nav {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(27, 25, 43);
+}
+
+.offer-pannel {
+
+    padding-top: 5px;
+    font-size: 20px;
+    justify-content: center;
+    height: 30px;
+}
+
+.offer-pannel {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar {
+    padding: 0px 25px;
+    height: 70px;
+    background-image: linear-gradient(60deg, #9CFFD9, #A0CCDA);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+/*website  logo */
+
+.logo {
+
+    width: 60px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+/* link for pages */
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    margin: 0px 7px;
+    font-weight: bold;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    font-size: 20px;
+    font-weight: 1200;
+    color: white;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+li a:active {
+    color: rgb(0, 0, 0);
+}
+/* search container */
+
+.search-container {
+
+    width: 350px;
+    height: 35px;
+    display: flex;
+    outline: none;
+
+
+}
+
+.search-container .option {
+    width: 70px;
+    text-align: center;
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+.option option {
+    font-size: 20px;
+
+}
+
+.search-box {
+
+    outline: none;
+    width: 240px;
+    border: none;
+    padding-left: 8px;
+}
+
+.search-container button {
+    width: 50px;
+    padding-top: 4px;
+    outline: none;
+    border: none;
+    justify-content: center;
+    margin: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+
+
+}
+
+.search-container button:active {
+    background-color: rgb(184, 184, 184);
+}
+/* icon for login ,cart and user */
+
+.icons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.icons a img {
+    height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.icons a {
+    margin: 0px 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.icons a img:active {
+    height: 28px;
+}
+/* css for footer */
+footer {
+    background-color: rgb(67, 66, 66);
+    font-family: 'Segoe UI';
+}
+
+.fcontainer {
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.frows {
+    display: flex;
+}
+
+.fcolumn {
+    width: 30%;
+    padding: 0 80px;
+}
+
+.fcolumn h4 {
+    font-size: 18px;
+    color: whitesmoke;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.fcolumn h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #d39c04;
+    height: 1px;
+    box-sizing: border-box;
+    width: 30px;
+}
+
+.fcolumn ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #03dac6;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.fcolumn ul li a:hover {
+    color: #bb86fc;
+    padding-left: 15px;
+}
+
+.mediaicons {
+    display: inline-block;
+    margin: 0 10 10 0;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.mediaicons img {
+    padding-left: 10px;
+}
+
+.mediaicons img:hover {
+    padding-top: 2px;
+}

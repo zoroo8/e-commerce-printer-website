@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Signup page for website">
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- link for webisite logo -->
+  <link rel="icon" href="/images/logo.png">
+  <!-- external css for signup page -->
+  <link rel="stylesheet" href="/css/signuppage.css">
+  <!-- external js for popup section and validation section -->
+  <script src="/js/openpopup.js"></script>
+  <title>Ted</title>
+
+</head>
+
+<body>
+  <!-- section for navigation bar -->
+  <header>
+    <nav>
+      <a href="" style="text-decoration: none;">
+        <div class="offer-pannel">
+          <marquee behavior="" direction="right">SHIVARATI & HOLI OFFER SPECIALS: FREE PRINTER CARTIDGES</marquee>
+        </div>
+      </a>
+
+      <div class="nav-bar">
+        <a href="/home.html"><img src="/images/logo.png" alt="logo" class="logo"></a>
+        <div class="menu">
+          <ul>
+            <li><a href="/home.html"> HOME</a></li>
+            <li><a href="/html/product.html">PRODUCT</a></li>
+            <li><a href="/html/blog.html">BLOG</a></li>
+            <li><a href="/html/research.html">RESEARCH</a></li>
+            <li><a href="/html/About_us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+        <!-- div for search -->
+        <div class="search-container">
+          <select name="" id="" class="option">
+            <option value="" selected disabled>
+              All
+            </option>
+            <option value="">
+              Laser printer
+            </option>
+            <option value="">
+              Thermal printer
+            </option>
+            <option value="">
+              Inkjet Printer
+            </option>
+            <option value="">
+              Solid Inkjet
+            </option>
+            <option value="">
+              3D Printer
+            </option>
+          </select>
+          <input type="search" placeholder="Search here" class="search-box">
+          <button class="search-button">
+            <img src="/images/search.png" style="height: 25px; ">
+          </button>
+        </div>
+        <!-- div for icon -->
+        <div class="icons">
+          
+          <a href="/html/loginpage.html">
+            <img src="/images/user.png" style="height: 35px;"><span>User</span>
+          </a>
+          <a href="">
+            <img src="/images/shopping-cart.png"><span>0</span>
+          </a>
+          <a href=""><img src="/images/black-heart.png"><span>0</span>
+          </a>
+        </div>
+    </nav>
+  </header>
+  <!-- section for signup container -->
+  <section class="s">
+    <div class="card">
+
+      <h1>CREATE A CUSTOMER ACCOUNT</h1>
+      <hr>
+
+      <form name="Registration" class="form-input" onsubmit="openpopup(event); registered();">
+
+        <div class="login">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="nam" class="input-box" name="name" required> <br>
+          <label for="email"> Email:</label>
+          <input type="email" name="email" class="input-box" id="email" required> <br>
+          <label for="phone-no"> Phone no:</label>
+          <input type="text" name="phone" class="input-box" id="phoneno" required> <br>
+          <label for="password"> Password:</label>
+          <input type="password" name="password" class="input-box" id="password" required> <br>
+        </div>
+
+        <hr>
+        <p class="agree">
+          <input type="checkbox" id="agree" required>
+          I agree to (a)Free Membership Agreement, (b) Terms of Use, and (c) Privacy Policy. <br> I agree to receive
+          more information from Ted about its products and services.
+        </p><br>
+
+        <input type="submit" value="Agree & Register" class="Signup-button"><br>
+
+        <p class="login-page">
+          Already have an account? <a href="/html/loginpage.html">Login</a>
+        </p>
+
+    </div>
+    </form>
+  </section>
+  <!-- div for popup container -->
+  <div class="popup" id="popup">
+    <img src="/images/tick.png" class="ticked"><br>
+    <p id="submitted"></p><br>
+    <p>Your detail has been successfully submitted.</p><br>
+    <a href="/html/product.html"><button>OK</button></a>
+  </div>
+  <!-- section for footer -->
+  <footer>
+    <div class="fcontainer">
+      <div class="frows">
+        <div class="fcolumn">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/html/About_us.html">Contact us</a></li>
+            <li><a href="/home.html">Our Services</a></li>
+            <li><a href="/home.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="fcolumn">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/home.html">FAQ</a></li>
+            <li><a href="/home.html">Returns</a></li>
+            <li><a href="/home.html">Shipping</a></li>
+            <li><a href="/home.html">Privacy Policy</a></li>
+            <li><a href="/home.html">Payment Options</a></li>
+          </ul>
+        </div>
+        <div class="fcolumn">
+          <h4>Printers</h4>
+          <ul>
+            <li><a href="/html/product.html">Hp Printer</a></li>
+            <li><a href="/html/product.html">Canon Printer</a></li>
+            <li><a href="/html/product.html">Brother Printer</a></li>
+            <li><a href="/html/product.html">Epson Printer</a></li>
+          </ul>
+        </div>
+        <div class="fcolumn">
+          <h4>Follow Us</h4>
+          <div class="mediaicons">
+
+            <a href="https://www.facebook.com/">
+              <img src="/images/fb.png" style="height: 40px; width: 40px;">
+            </a>
+
+            <a href="https://www.instagram.com/">
+              <img src="/images/insta.png" style="height: 40px; width: 40px;">
+            </a>
+
+            <a href="https://www.twitter.com/">
+              <img src="/images/X.png" style="height: 40px; width: 40px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

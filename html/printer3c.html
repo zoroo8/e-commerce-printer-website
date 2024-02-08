@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- info of page -->
+    <meta name="description" content="product description">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css for header and footer -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- link for website icon -->
+    <link rel="icon" href="/images/logo.png">
+    <!-- external link for printer description page -->
+    <link rel="stylesheet" href="/css/printer.css">
+    <title>Ted</title>
+    <!-- extrnal link for addcart ,product ,printer  -->
+    <script src="/js/addcart.js"></script>
+    <script src="/js/product.js"></script>
+    <script src="/js/printer.js"></script>
+
+</head>
+<body>
+    <!-- section for navigation bar -->
+    <header>
+        <nav>
+            
+        <a href="" style="text-decoration: none;">
+            <div class="offer-pannel">
+                <marquee behavior="" direction="right" >SHIVARATI & HOLI OFFER SPECIALS: FREE PRINTER CARTIDGES</marquee>
+         </div>
+        </a>
+            
+            <div class="nav-bar">
+                <a href="/home.html"><img src="/images/logo.png" alt="logo" class="logo"></a>
+             <div class="menu">
+                <ul>
+                    <li><a href="/home.html"> HOME</a></li>
+                        <li><a href="/html/product.html"
+                                style="color: white; font-size: 22px; font-weight: 1200;">PRODUCT</a>
+                        </li>
+                        <li><a href="/html/blog.html">BLOG</a></li>
+                        <li><a href="/html/research.html">RESEARCH</a></li>
+                        <li><a href="/html/About_us.html">ABOUT US</a></li>
+                </ul>
+             </div>
+              <!-- div for search container -->
+             <div class="search-container">
+                <select name="" id="" class="option">
+                    <option value="" selected disabled>All</option>
+                    <option value="">Hp</option>
+                        <option value="">Canon</option>
+                        <option value="">Brother</option>
+                        <option value="">Epson</option>
+                </select>
+                <input type="search" placeholder="Search here" class="search-box">
+                <button class="search-button"><img src="/images/search.png" style="height: 25px; "></button>
+             </div>
+             <!-- div for icon -->
+             <div class="icons">
+                    <a href="/html/loginpage.html"><img src="/images/user.png"><span>User</span></a>
+                    <a href=""><img src="/images/shopping-cart.png"><span id="totalcart">0</span></a>
+                    <a href=""><img src="/images/black-heart.png"><span id="add">0</span></a>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <!-- section for product image , price and order -->
+        <section class="purchase">
+            <div class="left-section">
+                <div class="primary-img">
+                   
+                <img src="/images/printer3c.jpg" alt="">
+                
+                </div>
+                <div class="secondary-img">
+                    <img src="/images/printer3c1.jpg" alt="">
+                    <img src="/images/printer3c2.jpg" alt="">
+                    <img src="/images/printer3c3.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-section">
+                <h1>Epson EcoTank L6460 A4 Ink Tank Printer</h1>
+                <h3 style="color: gray;">Item: #30294</h3>
+                <br><br>
+                <h2><img src="/images/star.png" alt=""><img src="/images/star.png" alt=""><img src="/images/star.png" alt=""><img src="/images/star.png" alt=""> <img src="/images/star.png" alt=""> 5 rating</h2>
+                <br>
+                <h1>NPR <del style="color: rgb(171, 171, 171);">54999</del> 50999</h1>
+                <br><br><br>
+                <h2 style="color: rgb(126, 234, 126);">Order now for free delivery</h2>
+                <br><br>
+                <pre style="font-size: 20px;">Available:  <img src="/images/tick.png" style="width: 17px;"></pre>
+                <br><br>
+                <span style="font-size: 20px;">Quantity: </span>
+                <select class="quantity">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <br><br><br><br>
+            <button class="buy">Buy Now</button>
+            <button class="cart" onclick="addcart()">Add to cart</button>
+            <button  style="background: none; border: none; cursor: pointer;"
+                        onclick="fav(1)" id="1"><img src="/images/heart.png" id="1"></button>
+            </div>
+            
+            
+        </section>
+        <!-- section for product description -->
+        <section class="details">
+            <h1 style="font-size: 40px; text-decoration: underline; color: rgb(132, 200, 200);">Printer Detail</h1>
+            <br>
+            <p style="font-size: 20px;">
+                Printer Type - Ink Tank; Functionality - All-in-One (Print, Scan, Copy) , Scanner type - Flatbed; Printer Output - Colour; Connectivity - Wi-Fi, USB, App
+                Pages per minute - 37 pages (Black & White), 17 pages (Colour) ; Cost per page - 12 paise (Black & White)As per ISO standards
+                Ideal usage - Home and Small office, Regular / Heavy usage (more than 300 pages per month)
+                Page size supported - A4, A5, A6, B5, C6, DL ; Duplex Print - Manual ; Print resolution - 4800*1200
+                Control Method: Application          
+            </p><br>
+            <hr>
+            <br>
+            <!-- table description for products -->
+            <table>
+                <tr class="gray">
+                    <th>Brand</th>
+                    <td>Epson</td>
+                </tr>
+                <tr>
+                    <th>Manufacturer</th>
+                    <td>EPSON INDIA PVT LTD, Epson, Lima Technology Center, Lipa City, Batangas, 4217, Philippines</td>
+                </tr>
+                <tr class="gray">
+                    <th>Series</th>
+                    <td>L6460</td>
+                </tr>
+                <tr>
+                    <th>Colour</th>
+                    <td>Black</td>
+                </tr>
+                <tr class="gray">
+                    <th>Form Factor</th>
+                    <td>All-in-One</td>
+                </tr>
+                <tr>
+                    <th>Item Height</th>
+                    <td>42 Centimeters</td>
+                </tr>
+                <tr class="gray">
+                    <th>Item Width</th>
+                    <td>41 Centimeters</td>
+                </tr>
+                <tr>
+                    <th>Product Dimensions</th>
+                    <td>44 x 41 x 42 cm; 9.6 Kilograms</td>
+                </tr>
+                <tr class="gray">
+                    <th>Item model number</th>
+                    <td>L6460</td>
+                </tr>
+                <tr>
+                    <th>Standing screen display size</th>
+                    <td>10.9 Centimetres</td>
+                </tr>
+                <tr class="gray">
+                    <th>Connectivity Type</th>
+                    <td>Wi-Fi</td>
+                </tr>
+                <tr>
+                    <th>Wattage</th>
+                    <td>12 Watt Hours</td>
+                </tr>
+                <tr class="gray">
+                    <th>Operating System</th>
+                    <td>Windows 11</td>
+                </tr>
+                <tr>
+                    <th>Included Components</th>
+                    <td>Printer, CD DVD Tray, Power Cable and USB Cable, Ink Bottles</td>
+                </tr>
+                <tr class="gray">
+                    <th>Manufacturer</th>
+                    <td>EPSON INDIA PVT LTD</td>
+                </tr>
+                <tr>
+                    <th>Item Weight</th>
+                    <td>9 kg 600 g</td>
+                </tr>
+    
+            </table>
+            
+        </section>
+        
+    </main>
+    <!-- section for footer -->
+    <footer>
+        <div class="fcontainer">
+            <div class="frows">
+                <div class="fcolumn">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="/html/About_us.html">Contact us</a></li>
+                        <li><a href="/home.html">Our Services</a></li>
+                        <li><a href="/home.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="fcolumn">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/home.html">FAQ</a></li>
+                        <li><a href="/home.html">Returns</a></li>
+                        <li><a href="/home.html">Shipping</a></li>
+                        <li><a href="/home.html">Privacy Policy</a></li>
+                        <li><a href="/home.html">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="fcolumn">
+                    <h4>Printers</h4>
+                    <ul>
+                        <li><a href="/html/product.html">HP Printer</a></li>
+                        <li><a href="/html/product.html">Canon Printer</a></li>
+                        <li><a href="/html/product.html">Brother Printer</a></li>
+                        <li><a href="/html/product.html">Epson Printer</a></li>
+                    </ul>
+                </div>
+                <div class="fcolumn">
+                    <h4>Follow Us</h4>
+                    <div class="mediaicons">
+
+                        <a href="https://www.facebook.com/">
+                            <img src="/images/fb.png" style="height: 40px; width: 40px;">
+                        </a>
+
+                        <a href="https://www.instagram.com/">
+                            <img src="/images/insta.png" style="height: 40px; width: 40px;">
+                        </a>
+
+                        <a href="https://www.twitter.com/">
+                            <img src="/images/X.png" style="height: 40px; width: 40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

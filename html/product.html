@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta tag to describe the content of website-->
+    <meta name="describe" content="Contains all the products of website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tag for author -->
+    <meta name="author" content="Om Shankar Sah">
+    <!-- ecss link for header and footer  -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/logo.png">
+    <!-- external css link for offer and product_container section -->
+    <link rel="stylesheet" href="/css/product.css">
+
+    <title>Ted</title>
+    <!-- internal css for  ad section-->
+    <style>
+        .container {
+            padding-top: 0px 10px 10px 0px;
+            padding-bottom: 20px;
+            margin-top: 85px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: rgba(110, 162, 195, 0.15);
+            width: 100%;
+            height: 100%;
+
+
+        }
+
+        .container h1 {
+            font-size: 45px;
+            color: black;
+            padding-top: 20px;
+        }
+
+        .exclusive_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .printer_container {
+            border: 1px solid rgb(24, 13, 232);
+            border-radius: 20px;
+            padding: 20px 20px 10px 20px;
+            margin: 30px;
+            background-color: rgba(228, 215, 145, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .printer video {
+            border-radius: 20px;
+            width: 247px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .printer video:hover {
+            border-radius: 15px;
+        }
+
+        .exclusive_container a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .printer_container:hover {
+            scale: 1.05;
+            border-radius: 15px;
+            background-color: transparent;
+            border: 1px solid black;
+            box-shadow: 1px 2px 10px rgb(39, 32, 232);
+        }
+    </style>
+    <script src="/js/product.js"></script>
+</head>
+
+<body>
+    <!-- This is Html for  navigation bar -->
+    <header>
+        <nav>
+            <!-- This is html for uppermost ad -->
+            <a href="" style="text-decoration: none;">
+                <div class="offer-pannel">
+                    <marquee behavior="" direction="right">SHIVARATI & HOLI OFFER SPECIALS: FREE PRINTER CARTIDGES
+                    </marquee>
+                </div>
+            </a>
+
+            <div class="nav-bar">
+                <a href="/home.html"><img src="/images/logo.png" alt="logo" class="logo"></a> <!--logo of website-->
+                <div class="menu"><!--link for different page of website-->
+                    <ul>
+                        <li><a href="/home.html"> HOME</a></li>
+                        <li><a href="/html/product.html"
+                                style="color: white; font-size: 22px; font-weight: 1200;">PRODUCT</a>
+                        </li>
+                        <li><a href="/html/blog.html">BLOG</a></li>
+                        <li><a href="/html/research.html">RESEARCH</a></li>
+                        <li><a href="/html/About_us.html">ABOUT US</a></li>
+                    </ul>
+                </div>
+                <!-- div for search -->
+                <div class="search-container">
+                    <select name="" id="" class="option">
+                        <option value="" selected disabled>All</option>
+                        <option value="">Hp</option>
+                        <option value="">Canon</option>
+                        <option value="">Brother</option>
+                        <option value="">Epson</option>
+                    </select>
+                    <input type="search" placeholder="Search here" class="search-box">
+                    <button class="search-button"><img src="/images/search.png" style="height: 25px; "></button>
+                </div>
+                <!-- div for icon -->
+                <div class="icons">
+                    <a href="/html/loginpage.html"><img src="/images/user.png"><span>User</span></a>
+                    <a href=""><img src="/images/shopping-cart.png"><span id="totalcart">0</span></a>
+                    <a href=""><img src="/images/black-heart.png"><span id="add">0</span></a>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <!-- section for top brand -->
+        <section class="ad">
+            <div class="container">
+                <h1>Featuring Brands </h1>
+                <div class="exclusive_container">
+
+                    <a href="printer1a.html" target="_top">
+                        <div class="printer_container">
+                            <div class="printer">
+                                <video src="/images/canon.mp4" muted loop autoplay></video>
+                                <h3>CANON </h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="printer4a.html" target="_top">
+                        <div class="printer_container">
+                            <div class="printer">
+                                <video src="/images/brother.mp4" muted loop autoplay></video>
+                                <h3>BROTHER </h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="printer3a.html" target="_top">
+                        <div class="printer_container">
+                            <div class="printer">
+                                <video src="/images/epson.mp4" muted loop autoplay></video>
+                                <h3>EPSON </h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="printer2c.html" target="_top">
+                        <div class="printer_container">
+                            <div class="printer">
+                                <video src="/images/hp.mp4" muted loop autoplay></video>
+                                <h3>HP</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- section for offer  -->
+
+        <section class="offer">
+            <video src="/images/videoad.mp4" loop autoplay style="width: 1456px;"></video>
+        </section>
+        <hr>
+        <!-- section for product container -->
+        <section class="product_container">
+            <div class="printer_view">
+                <a href="printer1a.html">
+                    <div class="printer_image">
+                        <img src="/images/printer1a.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>Canon Imageclass LBP6030w Monochrome Laser Printer - White</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">27000</del> 25000</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(1)" id="1"><img
+                            src="/images/heart.png" id="1"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer1b.html">
+                    <div class="printer_image" style="padding-top: 17px;">
+                        <img src="/images/printer1b1.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>Canon PIXMA TS3322 Wireless Inkjet All-In-One Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">15999</del> 12999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(2)" id="2"><img
+                            src="/images/heart.png" id="2"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer2a.html">
+                    <div class="printer_image"><!--printer description-->
+                        <img src="/images/printer2a.png" alt="#">
+                    </div>
+                    <div class="printer_desc">
+                        <p>HP LaserJet Enterprise M406dn Desktop Laser Printer - Monochrome</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">30000</del> 26000</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(3)" id="3"><img
+                            src="/images/heart.png" id="3"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer3a.html">
+                    <div class="printer_image" style="padding-top: 0px;">
+                        <img src="/images/printer3a.png" alt="#" style="height: 235px;">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>Epson EcoTank L3260 A4 Wi-Fi Duplex All-in-One Ink Tank Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">28999</del> 24999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(4)" id="4"><img
+                            src="/images/heart.png" id="4"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer1c.html">
+                    <div class="printer_image" style="padding-top: 0px;">
+                        <img src="/images/printer1c.png" alt="#" style="height: 235px;">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>NeeGo Canon PIXMA MG2522 Wired All-in-One Color</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">22999</del> 20999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(5)" id="5"><img
+                            src="/images/heart.png" id="5"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer4a.html">
+                    <div class="printer_image" style="padding-top: 10px;">
+                        <img src="/images/printer4a.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>Brother MFC-J1010DW Wireless Color Inkjet All-in-One Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">68999</del> 65999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(6)" id="6"><img
+                            src="/images/heart.png" id="6"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer2b.html">
+                    <div class="printer_image" style="padding-top: 0px;">
+                        <img src="/images/printer2b.png" alt="#" style="height: 235px;">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>HP LaserJet Enterprise M507n Laser Printer-45 dpi-Monochrome-Ethernet</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">34000</del> 29999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(7)" id="7"><img
+                            src="/images/heart.png" id="7"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer3c.html">
+                    <div class="printer_image" style="padding-top: 45px;padding-bottom: 30px;">
+                        <img src="/images/printer3c.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p style="padding-bottom: 65px;">Epson EcoTank L6460 A4 Ink Tank Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">54999</del> 50999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(8)" id="8"><img
+                            src="/images/heart.png" id="8"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer4b.html">
+                    <div class="printer_image" style="padding-top: 0px;">
+                        <img src="/images/printer4b.png" alt="#" style="height: 235px;">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p>Brother MFC-L8900CDW Business Color Laser All-in-One Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">28999</del> 26999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(9)" id="9"><img
+                            src="/images/heart.png" id="9"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer3b.html">
+                    <div class="printer_image">
+                        <img src="/images/printer3b.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p style="padding-bottom: 65px;">Epson EcoTank L8180 Multifunction A3+ InkTank Photo Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">88999</del> 82999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(10)" id="10"><img
+                            src="/images/heart.png" id="10"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer2c.html">
+                    <div class="printer_image" style="padding-top: 80px;padding-bottom: 80px;">
+                        <img src="/images/printer2c.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p style="padding-bottom: 32px;">HP ENVY 6055e Wireless Color Inkjet All in one Printer</p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">68000</del> 64999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(11)" id="11"><img
+                            src="/images/heart.png" id="11"></button>
+                </div>
+
+            </div>
+            <div class="printer_view">
+                <a href="printer4c.html">
+                    <div class="printer_image">
+                        <img src="/images/printer4c3.png" alt="#">
+                    </div>
+                    <div class="printer_desc"><!--printer description-->
+                        <p style="padding-bottom: 20px;">Brother MFC-J5340DW Business Color Inkjet All-in-One Printer
+                        </p>
+                        <h2>NPR <del style="color: rgb(171, 171, 171);">29999</del> 24999</h2>
+
+                    </div>
+                </a>
+                <div class="fav"><!--section for fav button-->
+                    <button style="background: none; border: none; cursor: pointer;" onclick="fav(12)" id="12"><img
+                            src="/images/heart.png" id="12"></button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <!-- section for footer  -->
+    <footer>
+        <div class="fcontainer">
+            <div class="frows">
+                <div class="fcolumn">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="/html/About_us.html">Contact us</a></li>
+                        <li><a href="/home.html">Our Services</a></li>
+                        <li><a href="/home.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="fcolumn">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/home.html">FAQ</a></li>
+                        <li><a href="/home.html">Returns</a></li>
+                        <li><a href="/home.html">Shipping</a></li>
+                        <li><a href="/home.html">Privacy Policy</a></li>
+                        <li><a href="/home.html">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="fcolumn">
+                    <h4>Printers</h4>
+                    <ul>
+                        <li><a href="/html/product.html">Hp Printer</a></li>
+                        <li><a href="/html/product.html">Canon Printer</a></li>
+                        <li><a href="/html/product.html">Brother Printer</a></li>
+                        <li><a href="/html/product.html">Epson Printer</a></li>
+                    </ul>
+                </div>
+                <div class="fcolumn">
+                    <h4>Follow Us</h4>
+                    <div class="mediaicons">
+
+                        <a href="https://www.facebook.com/">
+                            <img src="/images/fb.png" style="height: 40px; width: 40px;">
+                        </a>
+
+                        <a href="https://www.instagram.com/">
+                            <img src="/images/insta.png" style="height: 40px; width: 40px;">
+                        </a>
+
+                        <a href="https://www.twitter.com/">
+                            <img src="/images/X.png" style="height: 40px; width: 40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

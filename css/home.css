@@ -1,0 +1,198 @@
+/* main body part of home page*/
+main {
+    padding-top: 120px;
+}
+#banner{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+#banner img{ 
+   width: 100%;
+   
+}
+
+/* css for best selling printer section */
+
+.best-selling{
+    margin: 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    height: 520px;
+}
+.product{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.product .printer{
+    padding: 0px 10px;
+    height: 430px;
+    width: 280px;
+    background-color: white; 
+    opacity: 70%; 
+    transition: all 0.3s ease;
+}
+.product .printer:hover{
+    padding: 0px 10px;
+    background-color: white;  
+    opacity: 100%;
+    scale: 1.05;
+    
+}
+
+
+
+
+
+/* css for advertisement section */
+
+
+.advertisement{
+    height: 700px;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.advertisement .ad{
+    margin: 20px 0px 0px 0px;
+    height: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+.ad1{
+    display: flex;
+    width: 1400px;
+    justify-content: space-around;
+}
+.vid-ad video{
+    border-radius: 10px;
+}
+
+.advertisement .ad1-1 img{
+    height: 210px;
+    width: 800px;
+    
+    border-radius: 10px;
+}
+.advertisement .ad2 img{
+    height: 300px;
+    width: 1395px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/* css for other webpage link for homepage */
+
+.link-b{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-site{
+    height: 90%;
+    width: 350px;
+    
+    opacity: 70%;
+    transition: 0.3s ease;
+
+}
+.sub-site:hover{
+    scale: 1.05;
+    opacity: 100%;
+}
+
+
+.sub-site img{
+    width: 100%;
+}
+.sub-site a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+.text{
+    text-align: justify;
+    padding: 0px 15px;
+    
+}
+.text h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+
+
+
+
+.about-me{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me{
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px white;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.me button{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(223, 223, 223);
+}
+.me button:hover{
+    background-color: rgb(170, 170, 170);
+}
+.me button:active{
+    background-color: rgb(223, 223, 223);
+}
+#pic{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+#pic img{
+    width: 250px;
+    height: 250px;
+}
+#words{
+    width: 700px;
+    height: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 70px;
+    background-color: red;
+}

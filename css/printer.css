@@ -1,0 +1,83 @@
+/* css for printer description page */
+body{
+    color: black;
+}
+main{
+    padding: 0px 110px;
+    padding-bottom: 200px;
+}
+/* left section  */
+main .purchase{
+    width: 100%;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.purchase .left-section .primary-img img{
+    height: 500px;
+}
+.primary-img{
+    display: flex;
+    align-items: center;
+    
+}
+.primary-img img{
+    width: 500px;
+    height: 500px;
+}
+
+ .secondary-img img{
+    margin-right: 3px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+/* right section  */
+.right-section{
+    margin-left: 24px;
+}
+
+.right-section h1{
+    font-size: 30px;
+}
+.purchase .right-section  img{
+    width: 30px;
+}
+.quantity{
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(203, 175, 229);
+}
+.buy{
+    background-color: aquamarine;
+    height: 40px;
+    width: 250px;
+    border: none;
+}
+.cart{
+    background-color: pink;
+    height: 40px;
+    width: 250px;
+    border: none;
+}
+
+/* table detail  */
+.details table{
+   width: 90%;
+   font-size: 23px;
+   text-align: left;
+}
+.gray{
+    background-color: rgb(213, 213, 213);
+}
+button{
+    cursor: pointer;
+}
+.right-section button img{
+    margin-left: 10px;
+    margin-bottom:-10px;
+}

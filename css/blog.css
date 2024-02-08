@@ -1,0 +1,60 @@
+/* Blog starts */
+/* title of essay */
+.article{
+    padding-top: 100px;
+}
+.title {
+  text-align: center;
+  margin: 0px 80px;
+  position: relative;
+  line-height: 80px;
+  font-size: 40px;
+  color: #000000;
+}
+/* creating line */
+.title::after {
+  content: "";
+  background: #000000;
+  width: 200px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  left: 50%;  
+  transform: translateX(-50%);
+}
+.essay {
+  text-transform: none;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: rgb(0, 0, 0);
+  background: rgb(156,255,217);
+  background: radial-gradient(circle, rgba(156,255,217,1) 0%, rgba(160,204,218,1) 100%);
+  border-radius: 30px;
+  padding-top: 10px;
+  line-height: 28px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+/* privinding css for image */
+.tech-img img {
+  float: right;
+  height: 240px;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.techimg img {
+  float: right;
+  height: 240px;
+  width: 400px;
+  padding-top: -20px;
+  padding-left: 10px;
+}
