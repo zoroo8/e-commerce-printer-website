@@ -1,3 +1,3 @@
 # e-commerce-printer-website
-This is my first Git repository. <br>
+This is an e-commerce static website. <br>
 author- Sabin Karki
